@@ -26,7 +26,7 @@ const AddEntryForm = (props) => {
                 <label>Date</label>
                 <input type='date' className='form-control' value={date} onChange={(event) => setDate(event.target.value)}/>
             </div>
-            <button className='btn btn-primary' type='submit' style={{'margin-top': '1em'}}>Add</button>
+            <button className='btn btn-primary' type='submit' style={{marginTop: '1em'}}>Add</button>
         </form>
      );
 }
